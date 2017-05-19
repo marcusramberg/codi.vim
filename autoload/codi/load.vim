@@ -129,6 +129,11 @@ let s:codi_default_interpreters = {
           \ 'prompt': '^# ',
           \ 'preprocess': function('s:pp_ml'),
           \ },
+      \ 'perl': {
+          \ 'bin': 're.pl',
+          \ 'prompt': '^$ ',
+          \ 'preprocess': function('s:pp_ml'),
+          \ },
       \ 'r': {
           \ 'bin': 'R',
           \ 'prompt': '^> ',
